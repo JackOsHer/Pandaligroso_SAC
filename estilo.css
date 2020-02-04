@@ -1,0 +1,185 @@
+.divgeneral
+{
+    background-color: black;
+    padding: 0;
+    overflow: hidden;
+    height: 2200px;
+}
+
+
+.divheader
+{
+    background-color: blanchedalmond;
+    height: 150px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divheader1
+{
+    background-color: red;
+    height: 50px;    
+    width: auto;
+    margin-left: auto;
+     margin-right: auto;
+}
+
+.divheader2
+{
+    background-color: rgb(230, 142, 43);
+    height: 100px;
+    width: 100%;
+  
+     margin:auto;
+}
+
+.divtwfa
+{
+    display: flex;
+    background-color: white;
+    height: 50px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.divimg{
+    background-color: salmon;
+    height: 500px;
+    width: auto;
+    margin:auto;
+}
+
+.divimg1
+{
+    background-color: springgreen;
+    height: 400px;
+    width: 100%;
+}
+
+.divimg2
+{
+    background-color: violet;
+    height: 400px;
+    width: 40%;
+    float: left;
+    margin-left: 6%;
+    
+    
+}
+
+.divimg3
+{
+    background-color: violet;
+    height: 400px;
+    width: 40%;
+    float: right;
+    margin-right: 6%;
+    
+    
+}
+
+.divnoticias
+{
+    background-color: aqua;
+    height: 800px;
+    width: auto;
+}
+
+.divfoter
+{
+    background-color: chartreuse;
+    height: 400px;
+    width: auto;
+}
+
+.imgfatw
+{
+    
+    height: 50px;
+    width: auto;
+   
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+
+
+}
+
+
+
+.imgprin
+{
+    width: 100%;
+    height: 500px;
+}
+
+.slider
+{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul
+{
+    display: flex;
+    padding: 0;
+    width: 300%;
+
+    animation: cambio  20s  infinite ;
+    animation-direction: normal;
+    
+}
+
+.slider li{
+ list-style: none;
+ width: 100%;
+}
+
+.slide img
+{
+    width: 100%;
+}
+
+@keyframes cambio
+{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: 0;}
+    100% {margin-left: 0;}
+
+
+
+}
+
+
+.divapeco
+{
+    
+    background-color: lawngreen;
+    width: 42%;
+    height: 100px;
+    float: left;
+    
+    
+    
+}
+.divmenu
+{
+   
+    background-color: grey;
+    width: 56%;
+    height: 100px;
+    margin-left: auto;
+   
+}
