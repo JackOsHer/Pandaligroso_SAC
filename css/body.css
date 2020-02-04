@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');
+@import url('estilo.css');
+@import url('objetivos.css');
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/**Carrusel**/
+
+
+.carrusel-container {
+    padding-top: 103px;
+    position: relative;
+}
+
+
+/**Contactanos**/
+
+.contacto {
+    margin-top: 40px;
+}
+
+.card-header {
+    color: white;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+.forma1 {
+    margin: 0 auto;
+    display: flex;
+    flex-basis: 45%;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cuadrito {
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+
+.cajita {
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+
+.contacto,
+.contacto input {
+    font-size: 25px;
+}
+
+.terminos {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    ;
+    border: 0;
+    color: white;
+    opacity: 0, .8;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-bottom: 0;
+    transition: all 0.3s ease 0s;
+    font-size: 25px;
+    width: 120px;
+}
+
+.btn-primary:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.btn-primary:active {
+    opacity: 1;
+    background-color: #212529;
+}
+
+
+/**Footer**/
+
+.piecito {
+    margin-top: 0px;
+    font-size: 2.3rem;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(130, 220, 219, 1) 33%, rgba(0, 184, 181, 1) 100%);
+    color: black;
+}
+
+.redes a:hover {
+    text-decoration: none;
+}
+
+.numeros li a {
+    text-decoration: none;
+}
+
+.numeros li a:hover,
+.redes li a:hover {
+    color: #B80003;
+}
+
+
+/** Productos **/
+
+.productos {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productito {
+    flex-basis: 23.5%;
+    border: 1px solid skyblue;
+    margin: 0 10px 20px 10px;
+    background-color: white;
+    color: black;
+}
+
+.foto_prod {
+    padding-top: 25px;
+}
+
+.redes li a,
+.col-md-3,
+.list-unstyled li a {
+    color: black;
+}
+
+.piesote {
+    padding-left: 150px;
+}
+
+
+/**Responsive**/
+
+@media screen and (max-width: 768px) {
+    li {
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(130, 220, 219, 1) 33%, rgba(0, 184, 181, 1) 100%);
+    }
+}
+
+
+/** Soluciones **/
+
+.soluciones h2 {
+    padding-bottom: 20px;
+}
+
+.soluciones h3 {
+    padding-top: 10px;
+}
